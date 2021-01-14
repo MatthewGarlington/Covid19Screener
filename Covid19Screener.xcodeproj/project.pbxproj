@@ -9,10 +9,61 @@
 /* Begin PBXBuildFile section */
 		6B5B213F25B0D8430058E910 /* Covid19ScreenerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B213E25B0D8430058E910 /* Covid19ScreenerApp.swift */; };
 		6B5B214125B0D8430058E910 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B214025B0D8430058E910 /* ContentView.swift */; };
-		6B5B214325B0D8430058E910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B5B214225B0D8430058E910 /* Assets.xcassets */; };
 		6B5B214625B0D8430058E910 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B5B214525B0D8430058E910 /* Preview Assets.xcassets */; };
 		6B5B215125B0D8430058E910 /* Covid19ScreenerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B215025B0D8430058E910 /* Covid19ScreenerTests.swift */; };
 		6B5B215C25B0D8430058E910 /* Covid19ScreenerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B215B25B0D8430058E910 /* Covid19ScreenerUITests.swift */; };
+		6B5B217525B0D8EE0058E910 /* AboutCovidSheetView in Resources */ = {isa = PBXBuildFile; fileRef = 6B5B217425B0D8EE0058E910 /* AboutCovidSheetView */; };
+		6B5B217A25B0D90C0058E910 /* CovidScreenTabView in Resources */ = {isa = PBXBuildFile; fileRef = 6B5B217925B0D90C0058E910 /* CovidScreenTabView */; };
+		6B5B217F25B0D9230058E910 /* SelfCareSheet in Resources */ = {isa = PBXBuildFile; fileRef = 6B5B217E25B0D9230058E910 /* SelfCareSheet */; };
+		6B5B218425B0D9340058E910 /* SymptomScreenerTool in Resources */ = {isa = PBXBuildFile; fileRef = 6B5B218325B0D9340058E910 /* SymptomScreenerTool */; };
+		6B5B219D25B0D98F0058E910 /* QuarantiningSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B219625B0D98F0058E910 /* QuarantiningSheetView.swift */; };
+		6B5B219E25B0D98F0058E910 /* FaceMaskSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B219725B0D98F0058E910 /* FaceMaskSheetView.swift */; };
+		6B5B219F25B0D98F0058E910 /* WashingHandsInfoSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B219825B0D98F0058E910 /* WashingHandsInfoSheets.swift */; };
+		6B5B21A025B0D98F0058E910 /* CleaningInfoSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B219925B0D98F0058E910 /* CleaningInfoSheetView.swift */; };
+		6B5B21A125B0D98F0058E910 /* SymptomMonitoringSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B219A25B0D98F0058E910 /* SymptomMonitoringSheetView.swift */; };
+		6B5B21A225B0D98F0058E910 /* PhysicalDistancingSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B219B25B0D98F0058E910 /* PhysicalDistancingSheetView.swift */; };
+		6B5B21A325B0D98F0058E910 /* IsolatingSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B219C25B0D98F0058E910 /* IsolatingSheetView.swift */; };
+		6B5B21B125B0D9A80058E910 /* TestResultsSheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B21AB25B0D9A80058E910 /* TestResultsSheetsView.swift */; };
+		6B5B21B225B0D9A80058E910 /* WhenResultsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B21AC25B0D9A80058E910 /* WhenResultsSheet.swift */; };
+		6B5B21B325B0D9A80058E910 /* WhenResultsSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B21AD25B0D9A80058E910 /* WhenResultsSheetView.swift */; };
+		6B5B21B425B0D9A80058E910 /* WhatCanIDoSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B21AE25B0D9A80058E910 /* WhatCanIDoSheetView.swift */; };
+		6B5B21B525B0D9A80058E910 /* WaitingOnTestResultsSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B21AF25B0D9A80058E910 /* WaitingOnTestResultsSheetView.swift */; };
+		6B5B21B625B0D9A80058E910 /* ShouldYouGetTestedSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B21B025B0D9A80058E910 /* ShouldYouGetTestedSheetView.swift */; };
+		6B5B21C225B0D9F30058E910 /* EmergencyView in Resources */ = {isa = PBXBuildFile; fileRef = 6B5B21C125B0D9F20058E910 /* EmergencyView */; };
+		6B5B21CD25B0DA000058E910 /* PPEScreenerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B21CA25B0DA000058E910 /* PPEScreenerView.swift */; };
+		6B5B21CE25B0DA000058E910 /* AgeRestrictionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B21CB25B0DA000058E910 /* AgeRestrictionView.swift */; };
+		6B5B21CF25B0DA000058E910 /* EmergencyScrenerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B21CC25B0DA000058E910 /* EmergencyScrenerView.swift */; };
+		6B5B21D825B0DC180058E910 /* ContactYourWorkResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B21D525B0DC180058E910 /* ContactYourWorkResultsView.swift */; };
+		6B5B21D925B0DC180058E910 /* ContinuePhysicalDistancingResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B21D625B0DC180058E910 /* ContinuePhysicalDistancingResultsView.swift */; };
+		6B5B21DA25B0DC180058E910 /* ContactHealthCareResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B21D725B0DC180058E910 /* ContactHealthCareResultsView.swift */; };
+		6B5B21E725B0DC280058E910 /* AgeScreenerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B21DE25B0DC280058E910 /* AgeScreenerView.swift */; };
+		6B5B21E825B0DC280058E910 /* LiveInLongTermCareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B21DF25B0DC280058E910 /* LiveInLongTermCareView.swift */; };
+		6B5B21E925B0DC280058E910 /* ComorbidityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B21E025B0DC280058E910 /* ComorbidityView.swift */; };
+		6B5B21EA25B0DC280058E910 /* InTheLast14DaysScreenerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B21E125B0DC280058E910 /* InTheLast14DaysScreenerView.swift */; };
+		6B5B21EB25B0DC280058E910 /* CDCScreenerTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B21E225B0DC280058E910 /* CDCScreenerTool.swift */; };
+		6B5B21EC25B0DC280058E910 /* SymptomCheckerScreenerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B21E325B0DC280058E910 /* SymptomCheckerScreenerView.swift */; };
+		6B5B21ED25B0DC280058E910 /* SymptomSeverity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B21E425B0DC280058E910 /* SymptomSeverity.swift */; };
+		6B5B21EE25B0DC280058E910 /* VolunteerHospitalScreenerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B21E525B0DC280058E910 /* VolunteerHospitalScreenerView.swift */; };
+		6B5B21EF25B0DC280058E910 /* RecentTestingScreenerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B21E625B0DC280058E910 /* RecentTestingScreenerView.swift */; };
+		6B5B21FA25B0DC580058E910 /* HouseHoldEmergencyPlanSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B21F425B0DC580058E910 /* HouseHoldEmergencyPlanSheetView.swift */; };
+		6B5B21FB25B0DC580058E910 /* CovidContractionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B21F525B0DC580058E910 /* CovidContractionSheetView.swift */; };
+		6B5B21FC25B0DC580058E910 /* MentalHealthSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B21F625B0DC580058E910 /* MentalHealthSheetView.swift */; };
+		6B5B21FD25B0DC580058E910 /* ShopWisleySheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B21F725B0DC580058E910 /* ShopWisleySheetView.swift */; };
+		6B5B21FE25B0DC580058E910 /* WorkStrategiesSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B21F825B0DC580058E910 /* WorkStrategiesSheetView.swift */; };
+		6B5B21FF25B0DC580058E910 /* CareForBodySheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B21F925B0DC580058E910 /* CareForBodySheetView.swift */; };
+		6B5B220725B0DC7F0058E910 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B220425B0DC7F0058E910 /* ListView.swift */; };
+		6B5B220825B0DC7F0058E910 /* TopLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B220525B0DC7F0058E910 /* TopLogoView.swift */; };
+		6B5B220925B0DC7F0058E910 /* CDCHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B220625B0DC7F0058E910 /* CDCHomeView.swift */; };
+		6B5B220F25B0DCAA0058E910 /* CovidRiskSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B220E25B0DCAA0058E910 /* CovidRiskSheetView.swift */; };
+		6B5B221725B0DCB50058E910 /* WhatAreCovidSymptomDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B221325B0DCB50058E910 /* WhatAreCovidSymptomDetailView.swift */; };
+		6B5B221825B0DCB50058E910 /* WhatIsCovid19DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B221425B0DCB50058E910 /* WhatIsCovid19DetailView.swift */; };
+		6B5B221925B0DCB50058E910 /* PregnancyAndCovidSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B221525B0DCB50058E910 /* PregnancyAndCovidSheetView.swift */; };
+		6B5B221A25B0DCB50058E910 /* ShouldYouSeeADoctorSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B221625B0DCB50058E910 /* ShouldYouSeeADoctorSheetView.swift */; };
+		6B5B222325B0DEB70058E910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B5B222225B0DEB70058E910 /* Assets.xcassets */; };
+		6B5B223125B0E0A00058E910 /* AboutCovidDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B222D25B0E0A00058E910 /* AboutCovidDetailView.swift */; };
+		6B5B223225B0E0A00058E910 /*  SelfCareDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B222E25B0E0A00058E910 /*  SelfCareDetailView.swift */; };
+		6B5B223325B0E0A00058E910 /* CovidTestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B222F25B0E0A00058E910 /* CovidTestingView.swift */; };
+		6B5B223425B0E0A00058E910 /* WhatInfoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B223025B0E0A00058E910 /* WhatInfoDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +87,6 @@
 		6B5B213B25B0D8430058E910 /* Covid19Screener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Covid19Screener.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B5B213E25B0D8430058E910 /* Covid19ScreenerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Covid19ScreenerApp.swift; sourceTree = "<group>"; };
 		6B5B214025B0D8430058E910 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		6B5B214225B0D8430058E910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B5B214525B0D8430058E910 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6B5B214725B0D8430058E910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B5B214C25B0D8430058E910 /* Covid19ScreenerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Covid19ScreenerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +95,59 @@
 		6B5B215725B0D8430058E910 /* Covid19ScreenerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Covid19ScreenerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B5B215B25B0D8430058E910 /* Covid19ScreenerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Covid19ScreenerUITests.swift; sourceTree = "<group>"; };
 		6B5B215D25B0D8430058E910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B5B217425B0D8EE0058E910 /* AboutCovidSheetView */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AboutCovidSheetView; path = ../../CovidAlert/CovidAlert/View/CDCCovidScreen/AboutCovidSheetView; sourceTree = "<group>"; };
+		6B5B217925B0D90C0058E910 /* CovidScreenTabView */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CovidScreenTabView; path = ../../CovidAlert/CovidAlert/View/CDCCovidScreen/AboutCovidSheetView/CovidScreenTabView; sourceTree = "<group>"; };
+		6B5B217E25B0D9230058E910 /* SelfCareSheet */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SelfCareSheet; path = ../../CovidAlert/CovidAlert/View/CDCCovidScreen/SelfCareSheet; sourceTree = "<group>"; };
+		6B5B218325B0D9340058E910 /* SymptomScreenerTool */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SymptomScreenerTool; path = ../../CovidAlert/CovidAlert/View/CDCCovidScreen/SymptomScreenerTool; sourceTree = "<group>"; };
+		6B5B219625B0D98F0058E910 /* QuarantiningSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuarantiningSheetView.swift; path = ../../../CovidAlert/CovidAlert/View/CDCCovidScreen/WhatInfoSheet/QuarantiningSheetView.swift; sourceTree = "<group>"; };
+		6B5B219725B0D98F0058E910 /* FaceMaskSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FaceMaskSheetView.swift; path = ../../../CovidAlert/CovidAlert/View/CDCCovidScreen/WhatInfoSheet/FaceMaskSheetView.swift; sourceTree = "<group>"; };
+		6B5B219825B0D98F0058E910 /* WashingHandsInfoSheets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WashingHandsInfoSheets.swift; path = ../../../CovidAlert/CovidAlert/View/CDCCovidScreen/WhatInfoSheet/WashingHandsInfoSheets.swift; sourceTree = "<group>"; };
+		6B5B219925B0D98F0058E910 /* CleaningInfoSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CleaningInfoSheetView.swift; path = ../../../CovidAlert/CovidAlert/View/CDCCovidScreen/WhatInfoSheet/CleaningInfoSheetView.swift; sourceTree = "<group>"; };
+		6B5B219A25B0D98F0058E910 /* SymptomMonitoringSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SymptomMonitoringSheetView.swift; path = ../../../CovidAlert/CovidAlert/View/CDCCovidScreen/WhatInfoSheet/SymptomMonitoringSheetView.swift; sourceTree = "<group>"; };
+		6B5B219B25B0D98F0058E910 /* PhysicalDistancingSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhysicalDistancingSheetView.swift; path = ../../../CovidAlert/CovidAlert/View/CDCCovidScreen/WhatInfoSheet/PhysicalDistancingSheetView.swift; sourceTree = "<group>"; };
+		6B5B219C25B0D98F0058E910 /* IsolatingSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IsolatingSheetView.swift; path = ../../../CovidAlert/CovidAlert/View/CDCCovidScreen/WhatInfoSheet/IsolatingSheetView.swift; sourceTree = "<group>"; };
+		6B5B21AB25B0D9A80058E910 /* TestResultsSheetsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestResultsSheetsView.swift; path = ../../../CovidAlert/CovidAlert/View/CDCCovidScreen/TestingSheet/TestResultsSheetsView.swift; sourceTree = "<group>"; };
+		6B5B21AC25B0D9A80058E910 /* WhenResultsSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WhenResultsSheet.swift; path = ../../../CovidAlert/CovidAlert/View/CDCCovidScreen/TestingSheet/WhenResultsSheet.swift; sourceTree = "<group>"; };
+		6B5B21AD25B0D9A80058E910 /* WhenResultsSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WhenResultsSheetView.swift; path = ../../../CovidAlert/CovidAlert/View/CDCCovidScreen/TestingSheet/WhenResultsSheetView.swift; sourceTree = "<group>"; };
+		6B5B21AE25B0D9A80058E910 /* WhatCanIDoSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WhatCanIDoSheetView.swift; path = ../../../CovidAlert/CovidAlert/View/CDCCovidScreen/TestingSheet/WhatCanIDoSheetView.swift; sourceTree = "<group>"; };
+		6B5B21AF25B0D9A80058E910 /* WaitingOnTestResultsSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WaitingOnTestResultsSheetView.swift; path = ../../../CovidAlert/CovidAlert/View/CDCCovidScreen/TestingSheet/WaitingOnTestResultsSheetView.swift; sourceTree = "<group>"; };
+		6B5B21B025B0D9A80058E910 /* ShouldYouGetTestedSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShouldYouGetTestedSheetView.swift; path = ../../../CovidAlert/CovidAlert/View/CDCCovidScreen/TestingSheet/ShouldYouGetTestedSheetView.swift; sourceTree = "<group>"; };
+		6B5B21C125B0D9F20058E910 /* EmergencyView */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = EmergencyView; path = ../../../../CovidAlert/CovidAlert/View/CDCCovidScreen/SymptomScreenerTool/EmergencyView; sourceTree = "<group>"; };
+		6B5B21C625B0D9F50058E910 /* EmergencyView */ = {isa = PBXFileReference; lastKnownFileType = text; path = EmergencyView; sourceTree = "<group>"; };
+		6B5B21CA25B0DA000058E910 /* PPEScreenerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PPEScreenerView.swift; path = ../../../../CovidAlert/CovidAlert/View/CDCCovidScreen/SymptomScreenerTool/AltNextPage/PPEScreenerView.swift; sourceTree = "<group>"; };
+		6B5B21CB25B0DA000058E910 /* AgeRestrictionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AgeRestrictionView.swift; path = ../../../../CovidAlert/CovidAlert/View/CDCCovidScreen/SymptomScreenerTool/AltNextPage/AgeRestrictionView.swift; sourceTree = "<group>"; };
+		6B5B21CC25B0DA000058E910 /* EmergencyScrenerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmergencyScrenerView.swift; path = ../../../../CovidAlert/CovidAlert/View/CDCCovidScreen/SymptomScreenerTool/AltNextPage/EmergencyScrenerView.swift; sourceTree = "<group>"; };
+		6B5B21D525B0DC180058E910 /* ContactYourWorkResultsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactYourWorkResultsView.swift; path = ../../../../CovidAlert/CovidAlert/View/CDCCovidScreen/SymptomScreenerTool/Results/ContactYourWorkResultsView.swift; sourceTree = "<group>"; };
+		6B5B21D625B0DC180058E910 /* ContinuePhysicalDistancingResultsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContinuePhysicalDistancingResultsView.swift; path = ../../../../CovidAlert/CovidAlert/View/CDCCovidScreen/SymptomScreenerTool/Results/ContinuePhysicalDistancingResultsView.swift; sourceTree = "<group>"; };
+		6B5B21D725B0DC180058E910 /* ContactHealthCareResultsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactHealthCareResultsView.swift; path = ../../../../CovidAlert/CovidAlert/View/CDCCovidScreen/SymptomScreenerTool/Results/ContactHealthCareResultsView.swift; sourceTree = "<group>"; };
+		6B5B21DE25B0DC280058E910 /* AgeScreenerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AgeScreenerView.swift; path = ../../../../CovidAlert/CovidAlert/View/CDCCovidScreen/SymptomScreenerTool/Screener/AgeScreenerView.swift; sourceTree = "<group>"; };
+		6B5B21DF25B0DC280058E910 /* LiveInLongTermCareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LiveInLongTermCareView.swift; path = ../../../../CovidAlert/CovidAlert/View/CDCCovidScreen/SymptomScreenerTool/Screener/LiveInLongTermCareView.swift; sourceTree = "<group>"; };
+		6B5B21E025B0DC280058E910 /* ComorbidityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ComorbidityView.swift; path = ../../../../CovidAlert/CovidAlert/View/CDCCovidScreen/SymptomScreenerTool/Screener/ComorbidityView.swift; sourceTree = "<group>"; };
+		6B5B21E125B0DC280058E910 /* InTheLast14DaysScreenerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InTheLast14DaysScreenerView.swift; path = ../../../../CovidAlert/CovidAlert/View/CDCCovidScreen/SymptomScreenerTool/Screener/InTheLast14DaysScreenerView.swift; sourceTree = "<group>"; };
+		6B5B21E225B0DC280058E910 /* CDCScreenerTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CDCScreenerTool.swift; path = ../../../../CovidAlert/CovidAlert/View/CDCCovidScreen/SymptomScreenerTool/Screener/CDCScreenerTool.swift; sourceTree = "<group>"; };
+		6B5B21E325B0DC280058E910 /* SymptomCheckerScreenerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SymptomCheckerScreenerView.swift; path = ../../../../CovidAlert/CovidAlert/View/CDCCovidScreen/SymptomScreenerTool/Screener/SymptomCheckerScreenerView.swift; sourceTree = "<group>"; };
+		6B5B21E425B0DC280058E910 /* SymptomSeverity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SymptomSeverity.swift; path = ../../../../CovidAlert/CovidAlert/View/CDCCovidScreen/SymptomScreenerTool/Screener/SymptomSeverity.swift; sourceTree = "<group>"; };
+		6B5B21E525B0DC280058E910 /* VolunteerHospitalScreenerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VolunteerHospitalScreenerView.swift; path = ../../../../CovidAlert/CovidAlert/View/CDCCovidScreen/SymptomScreenerTool/Screener/VolunteerHospitalScreenerView.swift; sourceTree = "<group>"; };
+		6B5B21E625B0DC280058E910 /* RecentTestingScreenerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecentTestingScreenerView.swift; path = ../../../../CovidAlert/CovidAlert/View/CDCCovidScreen/SymptomScreenerTool/Screener/RecentTestingScreenerView.swift; sourceTree = "<group>"; };
+		6B5B21F425B0DC580058E910 /* HouseHoldEmergencyPlanSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HouseHoldEmergencyPlanSheetView.swift; path = ../../../CovidAlert/CovidAlert/View/CDCCovidScreen/SelfCareSheet/HouseHoldEmergencyPlanSheetView.swift; sourceTree = "<group>"; };
+		6B5B21F525B0DC580058E910 /* CovidContractionSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CovidContractionSheetView.swift; path = ../../../CovidAlert/CovidAlert/View/CDCCovidScreen/SelfCareSheet/CovidContractionSheetView.swift; sourceTree = "<group>"; };
+		6B5B21F625B0DC580058E910 /* MentalHealthSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MentalHealthSheetView.swift; path = ../../../CovidAlert/CovidAlert/View/CDCCovidScreen/SelfCareSheet/MentalHealthSheetView.swift; sourceTree = "<group>"; };
+		6B5B21F725B0DC580058E910 /* ShopWisleySheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShopWisleySheetView.swift; path = ../../../CovidAlert/CovidAlert/View/CDCCovidScreen/SelfCareSheet/ShopWisleySheetView.swift; sourceTree = "<group>"; };
+		6B5B21F825B0DC580058E910 /* WorkStrategiesSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkStrategiesSheetView.swift; path = ../../../CovidAlert/CovidAlert/View/CDCCovidScreen/SelfCareSheet/WorkStrategiesSheetView.swift; sourceTree = "<group>"; };
+		6B5B21F925B0DC580058E910 /* CareForBodySheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CareForBodySheetView.swift; path = ../../../CovidAlert/CovidAlert/View/CDCCovidScreen/SelfCareSheet/CareForBodySheetView.swift; sourceTree = "<group>"; };
+		6B5B220425B0DC7F0058E910 /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListView.swift; path = ../../../CovidAlert/CovidAlert/View/CDCCovidScreen/AboutCovidSheetView/CovidScreenTabView/ListView.swift; sourceTree = "<group>"; };
+		6B5B220525B0DC7F0058E910 /* TopLogoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TopLogoView.swift; path = ../../../CovidAlert/CovidAlert/View/CDCCovidScreen/AboutCovidSheetView/CovidScreenTabView/TopLogoView.swift; sourceTree = "<group>"; };
+		6B5B220625B0DC7F0058E910 /* CDCHomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CDCHomeView.swift; path = ../../../CovidAlert/CovidAlert/View/CDCCovidScreen/AboutCovidSheetView/CovidScreenTabView/CDCHomeView.swift; sourceTree = "<group>"; };
+		6B5B220E25B0DCAA0058E910 /* CovidRiskSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CovidRiskSheetView.swift; path = ../../../CovidAlert/CovidAlert/View/CDCCovidScreen/AboutCovidSheetView/CovidRiskSheetView.swift; sourceTree = "<group>"; };
+		6B5B221325B0DCB50058E910 /* WhatAreCovidSymptomDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WhatAreCovidSymptomDetailView.swift; path = ../../../CovidAlert/CovidAlert/View/CDCCovidScreen/AboutCovidSheetView/WhatAreCovidSymptomDetailView.swift; sourceTree = "<group>"; };
+		6B5B221425B0DCB50058E910 /* WhatIsCovid19DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WhatIsCovid19DetailView.swift; path = ../../../CovidAlert/CovidAlert/View/CDCCovidScreen/AboutCovidSheetView/WhatIsCovid19DetailView.swift; sourceTree = "<group>"; };
+		6B5B221525B0DCB50058E910 /* PregnancyAndCovidSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PregnancyAndCovidSheetView.swift; path = ../../../CovidAlert/CovidAlert/View/CDCCovidScreen/AboutCovidSheetView/PregnancyAndCovidSheetView.swift; sourceTree = "<group>"; };
+		6B5B221625B0DCB50058E910 /* ShouldYouSeeADoctorSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShouldYouSeeADoctorSheetView.swift; path = ../../../CovidAlert/CovidAlert/View/CDCCovidScreen/AboutCovidSheetView/ShouldYouSeeADoctorSheetView.swift; sourceTree = "<group>"; };
+		6B5B222225B0DEB70058E910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Downloads/CovidAlert-main/CovidAlert/Helpers/Assets.xcassets"; sourceTree = "<group>"; };
+		6B5B222D25B0E0A00058E910 /* AboutCovidDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutCovidDetailView.swift; path = ../../../CovidAlert/CovidAlert/View/CDCCovidScreen/SymptomScreenerTool/ListViewLinks/AboutCovidDetailView.swift; sourceTree = "<group>"; };
+		6B5B222E25B0E0A00058E910 /*  SelfCareDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = " SelfCareDetailView.swift"; path = "../../../CovidAlert/CovidAlert/View/CDCCovidScreen/SymptomScreenerTool/ListViewLinks/ SelfCareDetailView.swift"; sourceTree = "<group>"; };
+		6B5B222F25B0E0A00058E910 /* CovidTestingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CovidTestingView.swift; path = ../../../CovidAlert/CovidAlert/View/CDCCovidScreen/SymptomScreenerTool/ListViewLinks/CovidTestingView.swift; sourceTree = "<group>"; };
+		6B5B223025B0E0A00058E910 /* WhatInfoDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WhatInfoDetailView.swift; path = ../../../CovidAlert/CovidAlert/View/CDCCovidScreen/SymptomScreenerTool/ListViewLinks/WhatInfoDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +198,19 @@
 		6B5B213D25B0D8430058E910 /* Covid19Screener */ = {
 			isa = PBXGroup;
 			children = (
+				6B5B222725B0E0590058E910 /* ListViewLinks */,
+				6B5B220D25B0DC900058E910 /* AboutCovidSheetView */,
+				6B5B21F325B0DC3F0058E910 /* SelfCareSheet */,
+				6B5B21BD25B0D9C20058E910 /* SymptomScreenerTool */,
+				6B5B21AA25B0D99A0058E910 /* TestingSheet */,
+				6B5B219525B0D9810058E910 /* WhatInfoSheet */,
+				6B5B218325B0D9340058E910 /* SymptomScreenerTool */,
+				6B5B217E25B0D9230058E910 /* SelfCareSheet */,
+				6B5B217925B0D90C0058E910 /* CovidScreenTabView */,
+				6B5B217425B0D8EE0058E910 /* AboutCovidSheetView */,
 				6B5B213E25B0D8430058E910 /* Covid19ScreenerApp.swift */,
 				6B5B214025B0D8430058E910 /* ContentView.swift */,
-				6B5B214225B0D8430058E910 /* Assets.xcassets */,
+				6B5B222225B0DEB70058E910 /* Assets.xcassets */,
 				6B5B214725B0D8430058E910 /* Info.plist */,
 				6B5B214425B0D8430058E910 /* Preview Content */,
 			);
@@ -128,6 +241,137 @@
 				6B5B215D25B0D8430058E910 /* Info.plist */,
 			);
 			path = Covid19ScreenerUITests;
+			sourceTree = "<group>";
+		};
+		6B5B219525B0D9810058E910 /* WhatInfoSheet */ = {
+			isa = PBXGroup;
+			children = (
+				6B5B219925B0D98F0058E910 /* CleaningInfoSheetView.swift */,
+				6B5B219725B0D98F0058E910 /* FaceMaskSheetView.swift */,
+				6B5B219C25B0D98F0058E910 /* IsolatingSheetView.swift */,
+				6B5B219B25B0D98F0058E910 /* PhysicalDistancingSheetView.swift */,
+				6B5B219625B0D98F0058E910 /* QuarantiningSheetView.swift */,
+				6B5B219A25B0D98F0058E910 /* SymptomMonitoringSheetView.swift */,
+				6B5B219825B0D98F0058E910 /* WashingHandsInfoSheets.swift */,
+				6B5B223E25B0E14C0058E910 /* CopiedFilesFromCovidApp */,
+			);
+			path = WhatInfoSheet;
+			sourceTree = "<group>";
+		};
+		6B5B21AA25B0D99A0058E910 /* TestingSheet */ = {
+			isa = PBXGroup;
+			children = (
+				6B5B21B025B0D9A80058E910 /* ShouldYouGetTestedSheetView.swift */,
+				6B5B21AB25B0D9A80058E910 /* TestResultsSheetsView.swift */,
+				6B5B21AF25B0D9A80058E910 /* WaitingOnTestResultsSheetView.swift */,
+				6B5B21AE25B0D9A80058E910 /* WhatCanIDoSheetView.swift */,
+				6B5B21AC25B0D9A80058E910 /* WhenResultsSheet.swift */,
+				6B5B21AD25B0D9A80058E910 /* WhenResultsSheetView.swift */,
+			);
+			path = TestingSheet;
+			sourceTree = "<group>";
+		};
+		6B5B21BD25B0D9C20058E910 /* SymptomScreenerTool */ = {
+			isa = PBXGroup;
+			children = (
+				6B5B21C625B0D9F50058E910 /* EmergencyView */,
+				6B5B21C025B0D9E70058E910 /* Screener */,
+				6B5B21BF25B0D9DD0058E910 /* Results */,
+				6B5B21BE25B0D9D00058E910 /* AltNextPage */,
+			);
+			path = SymptomScreenerTool;
+			sourceTree = "<group>";
+		};
+		6B5B21BE25B0D9D00058E910 /* AltNextPage */ = {
+			isa = PBXGroup;
+			children = (
+				6B5B21CB25B0DA000058E910 /* AgeRestrictionView.swift */,
+				6B5B21CC25B0DA000058E910 /* EmergencyScrenerView.swift */,
+				6B5B21CA25B0DA000058E910 /* PPEScreenerView.swift */,
+				6B5B21C125B0D9F20058E910 /* EmergencyView */,
+			);
+			path = AltNextPage;
+			sourceTree = "<group>";
+		};
+		6B5B21BF25B0D9DD0058E910 /* Results */ = {
+			isa = PBXGroup;
+			children = (
+				6B5B21D725B0DC180058E910 /* ContactHealthCareResultsView.swift */,
+				6B5B21D525B0DC180058E910 /* ContactYourWorkResultsView.swift */,
+				6B5B21D625B0DC180058E910 /* ContinuePhysicalDistancingResultsView.swift */,
+			);
+			path = Results;
+			sourceTree = "<group>";
+		};
+		6B5B21C025B0D9E70058E910 /* Screener */ = {
+			isa = PBXGroup;
+			children = (
+				6B5B21DE25B0DC280058E910 /* AgeScreenerView.swift */,
+				6B5B21E225B0DC280058E910 /* CDCScreenerTool.swift */,
+				6B5B21E025B0DC280058E910 /* ComorbidityView.swift */,
+				6B5B21E125B0DC280058E910 /* InTheLast14DaysScreenerView.swift */,
+				6B5B21DF25B0DC280058E910 /* LiveInLongTermCareView.swift */,
+				6B5B21E625B0DC280058E910 /* RecentTestingScreenerView.swift */,
+				6B5B21E325B0DC280058E910 /* SymptomCheckerScreenerView.swift */,
+				6B5B21E425B0DC280058E910 /* SymptomSeverity.swift */,
+				6B5B21E525B0DC280058E910 /* VolunteerHospitalScreenerView.swift */,
+			);
+			path = Screener;
+			sourceTree = "<group>";
+		};
+		6B5B21F325B0DC3F0058E910 /* SelfCareSheet */ = {
+			isa = PBXGroup;
+			children = (
+				6B5B21F925B0DC580058E910 /* CareForBodySheetView.swift */,
+				6B5B21F525B0DC580058E910 /* CovidContractionSheetView.swift */,
+				6B5B21F425B0DC580058E910 /* HouseHoldEmergencyPlanSheetView.swift */,
+				6B5B21F625B0DC580058E910 /* MentalHealthSheetView.swift */,
+				6B5B21F725B0DC580058E910 /* ShopWisleySheetView.swift */,
+				6B5B21F825B0DC580058E910 /* WorkStrategiesSheetView.swift */,
+			);
+			path = SelfCareSheet;
+			sourceTree = "<group>";
+		};
+		6B5B220325B0DC710058E910 /* CovidScreenTabView */ = {
+			isa = PBXGroup;
+			children = (
+				6B5B220625B0DC7F0058E910 /* CDCHomeView.swift */,
+				6B5B220425B0DC7F0058E910 /* ListView.swift */,
+				6B5B220525B0DC7F0058E910 /* TopLogoView.swift */,
+			);
+			name = CovidScreenTabView;
+			path = ../CovidScreenTabView;
+			sourceTree = "<group>";
+		};
+		6B5B220D25B0DC900058E910 /* AboutCovidSheetView */ = {
+			isa = PBXGroup;
+			children = (
+				6B5B220E25B0DCAA0058E910 /* CovidRiskSheetView.swift */,
+				6B5B221525B0DCB50058E910 /* PregnancyAndCovidSheetView.swift */,
+				6B5B221625B0DCB50058E910 /* ShouldYouSeeADoctorSheetView.swift */,
+				6B5B221325B0DCB50058E910 /* WhatAreCovidSymptomDetailView.swift */,
+				6B5B221425B0DCB50058E910 /* WhatIsCovid19DetailView.swift */,
+				6B5B220325B0DC710058E910 /* CovidScreenTabView */,
+			);
+			path = AboutCovidSheetView;
+			sourceTree = "<group>";
+		};
+		6B5B222725B0E0590058E910 /* ListViewLinks */ = {
+			isa = PBXGroup;
+			children = (
+				6B5B222E25B0E0A00058E910 /*  SelfCareDetailView.swift */,
+				6B5B222D25B0E0A00058E910 /* AboutCovidDetailView.swift */,
+				6B5B222F25B0E0A00058E910 /* CovidTestingView.swift */,
+				6B5B223025B0E0A00058E910 /* WhatInfoDetailView.swift */,
+			);
+			path = ListViewLinks;
+			sourceTree = "<group>";
+		};
+		6B5B223E25B0E14C0058E910 /* CopiedFilesFromCovidApp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CopiedFilesFromCovidApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +478,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B5B214625B0D8430058E910 /* Preview Assets.xcassets in Resources */,
-				6B5B214325B0D8430058E910 /* Assets.xcassets in Resources */,
+				6B5B217525B0D8EE0058E910 /* AboutCovidSheetView in Resources */,
+				6B5B217A25B0D90C0058E910 /* CovidScreenTabView in Resources */,
+				6B5B21C225B0D9F30058E910 /* EmergencyView in Resources */,
+				6B5B218425B0D9340058E910 /* SymptomScreenerTool in Resources */,
+				6B5B222325B0DEB70058E910 /* Assets.xcassets in Resources */,
+				6B5B217F25B0D9230058E910 /* SelfCareSheet in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +508,54 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B5B21E925B0DC280058E910 /* ComorbidityView.swift in Sources */,
+				6B5B223425B0E0A00058E910 /* WhatInfoDetailView.swift in Sources */,
+				6B5B21EB25B0DC280058E910 /* CDCScreenerTool.swift in Sources */,
+				6B5B21A125B0D98F0058E910 /* SymptomMonitoringSheetView.swift in Sources */,
+				6B5B21B325B0D9A80058E910 /* WhenResultsSheetView.swift in Sources */,
+				6B5B21B625B0D9A80058E910 /* ShouldYouGetTestedSheetView.swift in Sources */,
+				6B5B221725B0DCB50058E910 /* WhatAreCovidSymptomDetailView.swift in Sources */,
+				6B5B21FF25B0DC580058E910 /* CareForBodySheetView.swift in Sources */,
+				6B5B21EE25B0DC280058E910 /* VolunteerHospitalScreenerView.swift in Sources */,
+				6B5B219D25B0D98F0058E910 /* QuarantiningSheetView.swift in Sources */,
+				6B5B21FB25B0DC580058E910 /* CovidContractionSheetView.swift in Sources */,
+				6B5B21EF25B0DC280058E910 /* RecentTestingScreenerView.swift in Sources */,
+				6B5B223325B0E0A00058E910 /* CovidTestingView.swift in Sources */,
+				6B5B21CE25B0DA000058E910 /* AgeRestrictionView.swift in Sources */,
+				6B5B220725B0DC7F0058E910 /* ListView.swift in Sources */,
+				6B5B223125B0E0A00058E910 /* AboutCovidDetailView.swift in Sources */,
+				6B5B219E25B0D98F0058E910 /* FaceMaskSheetView.swift in Sources */,
+				6B5B21DA25B0DC180058E910 /* ContactHealthCareResultsView.swift in Sources */,
+				6B5B21B525B0D9A80058E910 /* WaitingOnTestResultsSheetView.swift in Sources */,
+				6B5B21EC25B0DC280058E910 /* SymptomCheckerScreenerView.swift in Sources */,
+				6B5B21CF25B0DA000058E910 /* EmergencyScrenerView.swift in Sources */,
+				6B5B21FD25B0DC580058E910 /* ShopWisleySheetView.swift in Sources */,
+				6B5B21A225B0D98F0058E910 /* PhysicalDistancingSheetView.swift in Sources */,
+				6B5B21D925B0DC180058E910 /* ContinuePhysicalDistancingResultsView.swift in Sources */,
+				6B5B21CD25B0DA000058E910 /* PPEScreenerView.swift in Sources */,
+				6B5B220F25B0DCAA0058E910 /* CovidRiskSheetView.swift in Sources */,
 				6B5B214125B0D8430058E910 /* ContentView.swift in Sources */,
+				6B5B220925B0DC7F0058E910 /* CDCHomeView.swift in Sources */,
+				6B5B21ED25B0DC280058E910 /* SymptomSeverity.swift in Sources */,
+				6B5B221A25B0DCB50058E910 /* ShouldYouSeeADoctorSheetView.swift in Sources */,
+				6B5B21E725B0DC280058E910 /* AgeScreenerView.swift in Sources */,
+				6B5B219F25B0D98F0058E910 /* WashingHandsInfoSheets.swift in Sources */,
 				6B5B213F25B0D8430058E910 /* Covid19ScreenerApp.swift in Sources */,
+				6B5B221825B0DCB50058E910 /* WhatIsCovid19DetailView.swift in Sources */,
+				6B5B21A325B0D98F0058E910 /* IsolatingSheetView.swift in Sources */,
+				6B5B223225B0E0A00058E910 /*  SelfCareDetailView.swift in Sources */,
+				6B5B21FC25B0DC580058E910 /* MentalHealthSheetView.swift in Sources */,
+				6B5B21FA25B0DC580058E910 /* HouseHoldEmergencyPlanSheetView.swift in Sources */,
+				6B5B221925B0DCB50058E910 /* PregnancyAndCovidSheetView.swift in Sources */,
+				6B5B21A025B0D98F0058E910 /* CleaningInfoSheetView.swift in Sources */,
+				6B5B21EA25B0DC280058E910 /* InTheLast14DaysScreenerView.swift in Sources */,
+				6B5B21E825B0DC280058E910 /* LiveInLongTermCareView.swift in Sources */,
+				6B5B21D825B0DC180058E910 /* ContactYourWorkResultsView.swift in Sources */,
+				6B5B21B225B0D9A80058E910 /* WhenResultsSheet.swift in Sources */,
+				6B5B21B125B0D9A80058E910 /* TestResultsSheetsView.swift in Sources */,
+				6B5B21B425B0D9A80058E910 /* WhatCanIDoSheetView.swift in Sources */,
+				6B5B21FE25B0DC580058E910 /* WorkStrategiesSheetView.swift in Sources */,
+				6B5B220825B0DC7F0058E910 /* TopLogoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

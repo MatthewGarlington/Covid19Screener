@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct Covid19ScreenerApp: App {
+    
+ 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CDCHomeView(screenerStatus: ScreenerStatus.init())
         }
     }
 }
